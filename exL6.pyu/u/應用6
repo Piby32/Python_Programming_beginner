@@ -1,0 +1,29 @@
+'''
+求兩數和
+'''
+a = int(input(a))
+b = int(input(b))
+print(a + b)
+'''
+半徑求周長面積
+'''
+a = int(input(a))
+print(a * 2 * 3.14)
+print(a * a * 3.14)
+'''
+年月求當月天數
+'''
+a = int(input("year: "))
+b = int(input("month: "))
+
+match b:
+    case 1 | 7 | 3 | 8 | 5 | 10 | 12:
+        print("31")
+    case 4 | 6 | 9 |11:
+        print("30")
+    case 2:
+        if a % 4 = 0:
+            print("29")
+  
+            else:
+                 print("28")
